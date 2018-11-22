@@ -24,12 +24,28 @@ class App extends Component {
           </div>
           <div className="Small-Text">
             <span>
-              A lighter approach to improving your wellbeing.
+              A lighter approach to improving your wellbeing through simple SMS conversations.
             </span>
           </div>
           <div className="Phone">
             +1 512 710 2985
           </div>
+          <div className="Info-Text">
+            <span>
+              *Text the number above and get connected to one of our certified guides. Get anything off your chest:
+              <br/><br/><b>Had a bad day?</b> Vent.
+              <br/><br/><b>Just not feeling yourself?</b> Talk about it.
+              <br/><br/><b>Have a tough life decision to make?</b> Get another person's perspective.
+            </span>
+          </div>
+          <div className="Subinfo-Text">
+            <span>
+              *your phone number is completely anonymous and no messages are ever saved
+            </span>
+          </div>
+          <a href="" target="_blank" className="Button">
+            become a guide
+          </a>
         </div>
       </div>
     );
