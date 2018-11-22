@@ -14,14 +14,6 @@ class App extends Component {
             <img src="images/logo.svg" className="Logo-Big" alt="feather logo big" />
             <img src="images/logo.svg" className="Logo-Bigger" alt="feather logo bigger" />
           </div>
-          <div className="Subtitle-Text">
-            <span>
-              {`your `}
-            </span>
-            <b>
-              anonymous social health network
-            </b>
-          </div>
           <div className="Small-Text">
             <span>
               A lighter approach to improving your wellbeing through simple SMS conversations.
@@ -32,7 +24,7 @@ class App extends Component {
           </div>
           <div className="Info-Text">
             <span>
-              *Text the number above and get connected to one of our certified guides. Get anything off your chest:
+              *Text the number above and get connected to one of our guides.
               <br/><br/><b>Had a bad day?</b> Vent.
               <br/><br/><b>Just not feeling yourself?</b> Talk about it.
               <br/><br/><b>Have a tough life decision to make?</b> Get another person's perspective.
