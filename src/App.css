@@ -1,0 +1,60 @@
+.App {
+  text-align: left;
+  background-color: #9461F7;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  min-width: 300px;
+  margin: 40px;
+}
+
+.Title-Text {
+  font-size: 28px;
+}
+
+.Logo {
+  margin-bottom: -8px;
+  width: 60px;
+}
+
+.Logo-Big {
+  margin-bottom: -8px;
+  margin-left: -12px;
+  width: 80px;
+}
+
+.Logo-Bigger {
+  margin-bottom: -8px;
+  margin-left: -22px;
+  width: 100px;
+}
+
+.Subtitle-Text {
+  font-size: 24px;
+}
+
+.Small-Text {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.Phone {
+  font-weight: bold;
+  font-size: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: 2px solid #6534CA;
+  margin-top: 20px;
+}
