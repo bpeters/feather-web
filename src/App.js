@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import './App.css';
 
-class App extends Component {
+class Home extends Component {
   render() {
     return (
       <div className="App">
@@ -35,11 +36,36 @@ class App extends Component {
               *your phone number is completely anonymous and no messages are ever saved
             </span>
           </div>
-          <a href="" target="_blank" className="Button">
-            become a guide
-          </a>
+          <Link to="/become-a-guide">
+            <div className="Button">
+              become a guide
+            </div>
+          </Link>
         </div>
       </div>
+    );
+  }
+}
+
+class Guide extends Component {
+  render() {
+    return (
+      <div dangerouslySetInnerHTML={{
+        __html: '<html> <head> <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> <title>Registration Form (copy)</title> <style type="text/css"> html{ margin: 0; height: 100%; overflow: hidden; } iframe{ position: absolute; left:0; right:0; bottom:0; top:0; border:0; } </style> </head> <body> <iframe id="typeform-full" width="100%" height="100%" frameborder="0" src="https://brennenpeters.typeform.com/to/YlrONO"></iframe> <script type="text/javascript" src="https://embed.typeform.com/embed.js"></script> </body> </html>'
+      }} />
+    );
+  }
+}
+
+class App extends Component {
+  render() {
+    return (
+      <Router>
+        <div>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/become-a-guide" component={Guide} />
+        </div>
+      </Router>
     );
   }
 }
