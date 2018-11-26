@@ -25,10 +25,14 @@ class Home extends Component {
           </div>
           <div className="Info-Text">
             <span>
-              *Text the number above and get connected to one of our guides.
+            Sharing is a great way to practice vulnerability. feather provides an easy way for you to open up to others and take the first step toward improving your wellbeing. Users send a SMS to get connected to a feather guide who is there to help lighten their burden.
+            </span>
+            <br/><br/>
+            <span>
+              *Text the number above and get connected to a feather guide.
               <br/><br/><b>Had a bad day?</b> Vent.
               <br/><br/><b>Just not feeling yourself?</b> Talk about it.
-              <br/><br/><b>Have a tough life decision to make?</b> Get another person's perspective.
+              <br/><br/><b>Have a tough life decision to make?</b> Get another perspective.
             </span>
           </div>
           <div className="Subinfo-Text">
