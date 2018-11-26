@@ -40,11 +40,14 @@ class Home extends Component {
               *your phone number is completely anonymous and no messages are ever saved
             </span>
           </div>
-          <Link to="/become-a-guide">
-            <div className="Button">
-              become a guide
-            </div>
-          </Link>
+          <div className="Button-Row">
+            <Link className="Button" to="/become-a-guide">
+                become a guide
+            </Link>
+            <a href="https://medium.com/@brennen_peters/introducing-feather-network-b56374e7dd82">
+              <img src="images/medium.svg" className="Medium" alt="medium logo" />
+            </a>
+          </div>
         </div>
       </div>
     );
